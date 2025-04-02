@@ -8,16 +8,14 @@ import MemberCard from "@/components/MemberCard";
 export default function Home() {
   return (
     <main>
-      <Header class="">
-        <SignupForm class="">
+      <Header>
+        <SignupForm>
           <PrimaryButton />
         </SignupForm>
       </Header>
 
       <MemberList>
         <MemberCard className="flex content-between" />
-        <MemberCard />
-        <MemberCard />
       </MemberList>
     </main>
   );
